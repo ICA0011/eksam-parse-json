@@ -8,5 +8,7 @@ Information about JSON file structure is available
   - name
   - code
 ```
+use ```text``` method for ```requests.get``` to obtain file content before parsing.
+
 The number of courses may vary (theoretically), so **do not use numerical indexes**.
 ```['courses'][1]['code']``` will return the correct answer, but is not considered a correct solution.
